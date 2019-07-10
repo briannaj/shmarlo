@@ -1,0 +1,184 @@
+{
+  "id": "a85bf6ca-8427-4679-a4d2-8705a61f55d0",
+  "version": "2.0",
+  "name": "4",
+  "url": "https://my.arlo.com",
+  "tests": [{
+    "id": "ef373233-2fb3-4c90-a7e3-28363c1e5bbd",
+    "name": "TestDownloads",
+    "commands": [{
+      "id": "f2fde4d9-e537-490b-ab39-bc5bb1375020",
+      "comment": "",
+      "command": "open",
+      "target": "/?",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "54f40f49-7a4d-467f-b15e-14533066ac85",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1322x770",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "01c9bd8a-960b-4052-80a8-e20707a196cf",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6aff9d91-effb-4989-a55f-1b96580314a8",
+      "comment": "",
+      "command": "type",
+      "target": "id=userId",
+      "targets": [
+        ["id=userId", "id"],
+        ["name=userId", "name"],
+        ["css=#userId", "css:finder"],
+        ["xpath=//input[@id='userId']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "\"email\""
+    }, {
+      "id": "1996e2a3-519d-4f7b-beac-b0409dc1b426",
+      "comment": "",
+      "command": "click",
+      "target": "id=loginButton",
+      "targets": [
+        ["id=loginButton", "id"],
+        ["css=#loginButton", "css:finder"],
+        ["xpath=//button[@id='loginButton']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div[4]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Log In')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8b9ae73d-f734-42bd-806c-53e6889a5357",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tb-library",
+      "targets": [
+        ["css=.tb-library", "css:finder"],
+        ["xpath=//div[@id='footer_library']/div", "xpath:idRelative"],
+        ["xpath=//div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3c5ff944-c4a7-4717-935e-4d64a7a25118",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return 3",
+      "targets": [],
+      "value": "Var1"
+    }, {
+      "id": "1c0512d8-79bd-4dcb-a823-02804f5942a8",
+      "comment": "",
+      "command": "do",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "033f9c84-7c7e-4d05-afe3-8ad7a3ec897a",
+      "comment": "",
+      "command": "click",
+      "target": "css=div.calendar-day-video",
+      "targets": [
+        ["css=.timeline-filter", "css:finder"],
+        ["xpath=//div[@id='arlo-header']/div[2]/div/div/span[2]", "xpath:idRelative"],
+        ["xpath=//span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Filter')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f3e85758-500d-40a8-8aa1-cee1b1b31c73",
+      "comment": "",
+      "command": "click",
+      "target": "css=#calendar_day_${Var1}",
+      "targets": [
+        ["id=calendar_day_9", "id"],
+        ["css=#calendar_day_9", "css:finder"],
+        ["xpath=//div[@id='calendar_day_9']", "xpath:attributes"],
+        ["xpath=//div[@id='arlo-header']/div[2]/div/div[2]/div[2]/div[9]", "xpath:idRelative"],
+        ["xpath=//div[9]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d0b42c22-5639-4392-9723-1457d7bd01d1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.multiple-select-control",
+      "targets": [
+        ["css=.multiple-select-control", "css:finder"],
+        ["xpath=//div[@id='arlo-header']/div[2]/div/div/span[3]/span", "xpath:idRelative"],
+        ["xpath=//span[3]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c082922d-e669-449e-a4b1-b78de4f80c23",
+      "comment": "",
+      "command": "click",
+      "target": "css=.r-separator",
+      "targets": [
+        ["css=.r-separator", "css:finder"],
+        ["xpath=//div[@id='arlo-header']/div[2]/div/div/span[3]/span", "xpath:idRelative"],
+        ["xpath=//span[3]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "75087373-4b49-48b2-a6d9-efadea11c315",
+      "comment": "",
+      "command": "click",
+      "target": "css=.download",
+      "targets": [
+        ["css=.download", "css:finder"],
+        ["xpath=//div[@id='arlo-footer']/div[2]/div/div[4]", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div[4]", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win1521",
+      "windowTimeout": 2000
+    }, {
+      "id": "4bdf66ad-1c06-42d9-b208-cc6f7b0583c7",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return ${Var1} + 1",
+      "targets": [],
+      "value": "Var1"
+    }, {
+      "id": "b09ee9f7-59dc-41c6-9316-62eb8a043209",
+      "comment": "",
+      "command": "echo",
+      "target": "\"var 1 after increment\" + ${Var1}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "daea2524-1266-427a-8865-79103a0a45c7",
+      "comment": "",
+      "command": "repeatIf",
+      "target": "${Var1} < 31",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "60fec6fc-10e9-47fb-b547-c8736ab51b0e",
+    "name": "",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["ef373233-2fb3-4c90-a7e3-28363c1e5bbd"]
+  }],
+  "urls": ["https://my.arlo.com/"],
+  "plugins": []
+}
